@@ -63,16 +63,6 @@ Permite ver lo que ocurre dentro del programa mientras se ejecuta o al fallar.
 | `print` | Muestra el valor de una variable |
 | `backtrace` | Muestra la pila de llamadas actual |
 
-### Ejemplo de uso
-```bash
-g++ -g -o programa programa.cpp
-gdb programa
-(gdb) run
-(gdb) break main
-(gdb) next
-(gdb) print variable
-(gdb) backtrace
-
 ## Análisis de memoria — Valgrind
 
 **Valgrind** es un conjunto de herramientas para analizar programas y encontrar errores de memoria y concurrencia.
