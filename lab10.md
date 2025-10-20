@@ -77,7 +77,7 @@ Permite ver lo que ocurre dentro del programa mientras se ejecuta o al fallar.
 - Detecta errores de lectura/escritura fuera de rango.  
 - Informa sobre memoria no inicializada o liberada más de una vez.
 
-### Ejemplo
+---
 
 ## Análisis de hilos — Helgrind
 
