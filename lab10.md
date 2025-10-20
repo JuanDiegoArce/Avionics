@@ -78,9 +78,6 @@ Permite ver lo que ocurre dentro del programa mientras se ejecuta o al fallar.
 - Informa sobre memoria no inicializada o liberada más de una vez.
 
 ### Ejemplo
-```bash
-g++ -g -o programa programa.cpp
-valgrind --leak-check=yes ./programa
 
 ## Análisis de hilos — Helgrind
 
